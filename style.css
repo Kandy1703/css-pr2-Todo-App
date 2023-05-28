@@ -1,0 +1,361 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background-color: rgb(209, 203, 203);
+}
+.top{
+    display: flex;
+    height: 80px;
+    box-shadow: 0px 5px 5px #aaaaaa;
+    background-color: white;
+    
+}   
+.head1{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.head2{
+    color: rgb(21, 178, 240);
+} 
+
+     /* Task and Plus */
+.parent{
+    display: wrap;
+    display: flex;
+    justify-content: flex-end;
+    
+     
+}
+.circle{
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+    background-color: aqua;  
+    position: relative;
+    top: 55px;
+    right: 90px;
+}
+.plus{
+font-size: 35px;
+font-weight: bolder;
+text-align: center;
+}
+
+.task{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 10px;
+    position: relative;
+    right: 80px;
+    top: 50px;
+}
+.task a{
+    text-decoration: none;
+    color: #9b9494;
+}
+.plus a{
+    text-decoration: none;
+    color: white;
+}
+    /* packages */
+
+     .parent1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: relative;
+        left: -50px;
+        top: 100px;
+        gap: 20px;
+    
+
+    }
+    .routin{
+        position: absolute;
+        left: 130px;
+    }
+    .books{
+        position: relative;
+        left: 45px;
+    }
+    .box{
+        width: 250px;
+        height: 300px;
+        color: aqua;
+        padding: 40px;
+        font-size: 22px;
+        bottom: 10px;
+        background-color: white;
+        border-radius: 10px;  
+    }
+    .box a{
+        text-decoration: none;
+        color: aqua;
+    }
+    .box:hover{ 
+        box-shadow: 0px 0px 5px 10px rgb(238, 231, 231);
+    }
+    label{
+        color: black;
+        font-size: 20px;
+    }
+
+    .del{
+        color: gray;
+        text-decoration: line-through;
+    } 
+    /* Second Page */
+     
+    .parent2{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 800px;
+        
+    }
+    .page{
+        width: 400px;
+        height: 200px;   
+        background-color: rgb(248, 239, 239);
+        border-radius: 10px;
+        
+    }
+    .add{
+        font-family: inherit;
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .into{
+        color: #aaaaaa;
+        position: relative;
+        right: 20px;
+        text-align: right;
+        
+    }
+    .into a{
+        text-decoration: none;
+    }
+    .inputarea{
+        width: 350px;
+        height: 25px;
+        position: relative;
+        left: 25px;
+        top: 20px;
+        background-color: #f7f5f5;
+        border: 1px solid black;
+    }
+    .into{
+        bottom: 10px;
+    }
+    .add{
+        top: 10px;
+        color: #aaaaaa;
+    }
+    .click{
+        display: flex;
+        justify-content: right;
+    }
+    .button{  
+        width: 120px;
+        height: 20px;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        background-color: skyblue;
+        position: relative;
+        right: 20px;
+        top: 40px; 
+    }  
+
+    /* Third page */
+    .top{
+        display: block;
+        background-color: white;
+        height: 100px;
+    } 
+    .demohead{
+        font-size: 40px;
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+        left: 40px;
+    }  
+    .demohead2{
+        color: rgb(21, 178, 240);
+    } 
+    .demo{
+        display: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .icon{
+        position: relative;
+        top: 90px;
+        right: 60px;      
+     }
+     .demoback{
+        font-family: sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        position: relative;
+        top: 90px;
+        right: 50px;   
+    }
+    .demoback a{
+        text-decoration: none;
+        color: black;
+    }
+    .democircle{
+        width: 3%;
+        height: 3%;
+        border-radius: 50%;
+        background-color: aqua;
+        position: relative;
+        left: 70px;
+        top: 75px;
+    }
+    .democircle a{
+        text-decoration: none;
+        color: #9b9494;
+    }
+    .demotask a{
+        text-decoration: none;
+        color: #9b9494;
+    }
+    .demoplus{
+        font-size: 35px;
+        color: #9b9494;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .demotask{
+        font-family: sans-serif;
+        font-size: 20px;
+        line-height: 35px;
+        position: relative;
+        color: #9b9494;
+        top: 80px;
+        left: 80px;
+    }
+    
+    
+    .demoparent{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        
+        top: 100px;
+        
+
+    }
+    .demoparis{
+        width: 300px;
+        height: 350px;
+        padding: 40px;
+        font-size: 25px;
+        /* border: 1px solid black; */
+        background-color: white;
+        border-radius: 10px;  
+        position: relative;
+        
+        
+    }
+    .demoparis a{
+        text-decoration: none;
+        color: aqua;
+    }
+    
+    .demoparis:hover{ 
+        box-shadow: 0px 0px 5px 10px rgb(238, 231, 231);
+    }
+
+
+    .demodels{
+        color: gray;
+        text-decoration: line-through;
+    }
+    label{
+        color: black;
+    }
+    /* forht page */
+
+    .demoforth{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 80px;
+        
+    }
+    .demopage-forth{
+        width: 400px;
+        height: 200px;   
+        background-color: rgb(248, 239, 239);
+        border-radius: 10px;
+        position: relative;
+        bottom: 400px;
+        
+    }
+    .demoadd-forth{
+        font-family: inherit;
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+    .demo-into-forth{
+        color: #aaaaaa;
+        position: relative;
+        right: 20px;
+        bottom: 10px;
+        text-align: right;
+    }
+    .demo-input-forth{
+        width: 350px;
+        height: 25px;
+        position: relative;
+        left: 25px;
+        top: 20px;
+        background-color: #f7f5f5;
+    }
+    .demo-click-forth{
+        display: flex;
+        justify-content: right;
+    }
+    .demo-button-forth{  
+        width: 120px;
+        height: 20px;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        background-color: skyblue;
+        position: relative;
+        right: 20px;
+        top: 40px; 
+    }
+    
+
+    /* blur properties */
+
+    .forthpage{
+        filter: blur(8px);
+    }
+    .fristindex{
+        filter: blur(8px);
+        
+    }
+    .forth-second{
+        filter: blur(8px);
+    }
